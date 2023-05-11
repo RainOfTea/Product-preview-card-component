@@ -1,0 +1,21 @@
+/* 592px and smaller: */
+@media (max-width: 37em) {
+  .product {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    max-width: 34.5rem;
+    height: 60rem;
+  }
+
+  .product-info {
+    padding: 2rem 2.5rem;
+  }
+
+  .product-title {
+    font-size: 3.1rem;
+  }
+
+  .product-description {
+    line-height: 1.7;
+  }
+}
